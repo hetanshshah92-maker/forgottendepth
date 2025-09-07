@@ -1,0 +1,44 @@
+# ================================
+# C++ Adventure Game - Git Ignore
+# ================================
+
+# Compiled binary (Linux/Mac)
+game
+
+# Compiled binary (Windows)
+game.exe
+
+# Object files
+*.o
+*.obj
+
+# Compilation output
+*.out
+*.a
+*.so
+*.dll
+*.lib
+
+# Build directories (if you make one later, like with CMake)
+build/
+bin/
+debug/
+release/
+
+# Logs and debug dumps
+*.log
+*.stackdump
+
+# Editor/IDE config files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*~
